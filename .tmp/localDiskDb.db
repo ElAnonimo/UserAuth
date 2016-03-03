@@ -1,0 +1,65 @@
+{
+  "data": {
+    "user": [
+      {
+        "createdAt": "2016-01-19T14:10:17.746Z",
+        "updatedAt": "2016-01-19T14:10:17.746Z",
+        "id": 1
+      },
+      {
+        "name": "John Doe",
+        "email": "johndoe@web.com",
+        "password": "parol",
+        "createdAt": "2016-01-19T14:12:13.465Z",
+        "updatedAt": "2016-01-19T14:12:13.465Z",
+        "id": 2
+      },
+      {
+        "name": "Jane Doe",
+        "email": "janedoe@web.com",
+        "password": "parol",
+        "createdAt": "2016-01-19T14:13:12.185Z",
+        "updatedAt": "2016-01-19T14:13:12.185Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "lastLoggedIn": {
+        "type": "date",
+        "defaultsTo": "1970-01-01T00:00:00.000Z"
+      },
+      "gravatarUrl": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 3
+    }
+  }
+}
