@@ -14,6 +14,8 @@
 ### Установка модулей
 `npm install`
 
+Для соединения с MongoDB установите модуль sails-mongo: `npm install sails-mongo --save`
+
 ### Запуск приложения
 `sails lift`
 
