@@ -18,7 +18,7 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
   // connection: 'localDiskDb',		// local Sails DB connection
-  connection: 'myMongo',					// MongoLab.com connection
+  connection: 'myMongo'					// MongoLab.com connection
 
   /***************************************************************************
   *                                                                          *
