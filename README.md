@@ -2,7 +2,7 @@
 Система создания и аутентификации пользователя, созданная с использованием Sails. Система использует полный MEAN стек. Аутентификация и шифрование по алгоритму BCrypt осуществлены при помощи модуля Node-machine Passwords.
 
 ### Технологии
-* SailsDB
+* Sails
 * MongoDB на облачной БД MongoLab
 * Node-machine Passwords
 * Node-machine Gravatar
