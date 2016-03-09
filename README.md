@@ -7,7 +7,8 @@
 * Nodemachine
 * Gravatar
 * CSS
-* Bootstrap
+* Foundation
+* Angular-toastr для всплывающих сообщений
 * Grunt
 
 ### Установка модулей
