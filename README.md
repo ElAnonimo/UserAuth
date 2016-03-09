@@ -3,7 +3,7 @@
 
 ### Технологии
 * SailsDB
-* MongoDB
+* MongoDB на облачной БД MongoLab
 * Node-machine Passwords
 * Node-machine Gravatar
 * CSS
